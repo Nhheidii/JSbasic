@@ -1,0 +1,121 @@
+#container {
+    height: 150px;
+    display: flex;
+    flex-wrap: nowrap;
+    /* overflow-x: scroll; */
+    /* border: solid 2px black; */
+    /* box-sizing: border-box; */
+    align-items: center;
+    /* position: absolute; */
+    /* width: 100%; */
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    /* right: 200px;    */
+    justify-content: center;
+
+}
+
+
+h3,
+h2 {
+    margin-block-end: 0.2em;
+    margin-block-start: 0.5em;
+
+}
+
+#containerBig {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    overflow-y: hidden;
+    position: relative;
+    height: 150px;
+    overflow-x: hidden;
+
+
+}
+
+.contaninerFather {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 30px 20%;
+    border: solid 2px #ccc;
+    padding: 5px 3%;
+    background-color: goldenrod;
+
+}
+
+.conteiner {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0 30px;
+    justify-content: center;
+
+}
+
+#display {
+    height: 150px;
+    width: 150px;
+    /* border: solid 2px #ddd; */
+    /* box-sizing: border-box; */
+    border-radius: 50%;
+    /* display: none;    */
+    /* position: fixed; */
+    box-sizing: border-box;
+
+}
+
+.arrowDiv img {
+    height: 20px;
+    width: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    overflow-y: scroll;
+    height: 200px;
+    position: relative;
+    display: none;
+    flex-direction: row;
+
+}
+
+.header p {
+    margin: 20px;
+}
+
+p {
+    font-style: italic;
+    margin-block-start: 0.3em;
+    margin-block-end: 0.3em;
+
+}
+
+/* #favList {
+    display: flex;
+} */
+
+#favList {
+    display: flex;
+    width: 150px;
+    height: 300px;
+    border: solid 2px #ccc;
+    position: absolute;
+    flex-direction: column;
+    padding: 5px;
+    box-sizing: border-box;
+    overflow-y: scroll; 
+    /* writing-mode: vertical-rl;
+    text-orientation: upright; */
+    margin-top: 10px;
+    background-color: moccasin;
+
+
+}
