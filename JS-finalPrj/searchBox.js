@@ -50,13 +50,13 @@ for (let i = 1; i < 12; i++) {
     imgDiv.id = `${i}Div`;
     imgDiv.style.flexShrink = "0";
     let img = document.createElement("img");
-    let url = `./2398/img/${i}.jpeg`;
+    let url = `./img/${i}.jpeg`;
     img.setAttribute("src", url);
     Object.assign(imgDiv.style, imgDivStyle);
     Object.assign(img.style, imgStyle);
     imgDiv.appendChild(img);
     container.appendChild(imgDiv);
-    let url2 = `./2398/img/${i}${i}.jpeg`;
+    let url2 = `./img/${i}${i}.jpeg`;
     console.log(url2);
     let princeeImg = document.createElement("img");
     princeeImg.style.flexShrink = "0";

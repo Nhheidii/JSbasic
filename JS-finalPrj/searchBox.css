@@ -31,7 +31,7 @@ body {
     /* bỏ khoảng trống mặc định */
     height: 100vh;
     /* full chiều cao màn hình */
-    background-image: url("./2398/img/BG.jpeg");
+    background-image: url("./img/BG.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     /* ảnh phủ hết body */
